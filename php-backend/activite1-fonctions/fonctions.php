@@ -113,5 +113,15 @@ function puissance(float $x, int $n): float{
         $c*=$x;
     }return $c;
 }
+function verifier(string $nom, mixed $attendu, mixed $obtenu): void {
+
+    if ($attendu == $obtenu) {
+        echo "$nom : OK ";
+    }
+    else {
+        echo "$nom : ECHEC ";
+    }
+
+}
 
 

@@ -44,3 +44,7 @@ try{
 print_r( fibonacci(4))."\n";
 echo pgcd(25,5)."\n";
 echo puissance(4.0,5)."\n";
+
+verifier("Addition", 20, additionner(12.0, 8.0))."\n";
+verifier("Soustraction", 5, soustraire(10.0, 5.0))."\n";
+verifier("Multiplication", 30, multiplier(5.0, 6.0))."\n";
